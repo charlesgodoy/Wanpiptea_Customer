@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_nav_home"/>
+    <item
+        android:id="@+id/nav_menu"
+        android:title="Menu"
+        android:icon="@drawable/ic_nav_menu"/>
+    <item
+        android:id="@+id/mav_points"
+        android:title="Loyalty"
+        android:icon="@drawable/ic_nav_loyalty"/>
+
+</menu>

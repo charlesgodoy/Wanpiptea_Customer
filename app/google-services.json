@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "107613008249",
+    "firebase_url": "https://wanpiptea-defac.firebaseio.com",
+    "project_id": "wanpiptea-defac",
+    "storage_bucket": "wanpiptea-defac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107613008249:android:8013fbfd408e6705be7fa8",
+        "android_client_info": {
+          "package_name": "com.burning_glow.wanpipteacustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107613008249-8nukajjui1det9hdf43kvq915i0n6kts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7kgZMafbqY31Z1c9bWB8U_E14Hg2FG_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107613008249-8nukajjui1det9hdf43kvq915i0n6kts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107613008249:android:9262233a0f0f87a5be7fa8",
+        "android_client_info": {
+          "package_name": "com.burningglow.wanpipteacustomer.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107613008249-j6gki2ot2rh4e546c5baibh8um3ba0ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.burningglow.wanpipteacustomer.ui",
+            "certificate_hash": "755d8afe8b1b3800595b701b3a34ad75ea320b09"
+          }
+        },
+        {
+          "client_id": "107613008249-8nukajjui1det9hdf43kvq915i0n6kts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7kgZMafbqY31Z1c9bWB8U_E14Hg2FG_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107613008249-8nukajjui1det9hdf43kvq915i0n6kts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
