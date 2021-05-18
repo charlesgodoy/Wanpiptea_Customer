@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_rewards"
         android:title="Home"
         android:icon="@drawable/ic_nav_home"/>
     <item
@@ -10,7 +10,11 @@
         android:title="Menu"
         android:icon="@drawable/ic_nav_menu"/>
     <item
-        android:id="@+id/mav_points"
+        android:id="@+id/nav_contact"
+        android:title="Contact"
+        android:icon="@drawable/ic_nav_contact_foreground"/>
+    <item
+        android:id="@+id/nav_loyalty"
         android:title="Loyalty"
         android:icon="@drawable/ic_nav_loyalty"/>
 
