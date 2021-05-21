@@ -12,15 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WanpipteaCustomer">
-        <activity android:name=".ui.WelcomeScreen"></activity>
+<!--        <activity android:name=".ui.WelcomeScreen"></activity>-->
         <activity android:name=".ui.LoginScreen" />
-        <activity android:name=".ui.SplashScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--        code below for testing purposes-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+                <activity android:name=".ui.WelcomeScreen">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>
+
+<!--        <activity android:name=".ui.SplashScreen">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
