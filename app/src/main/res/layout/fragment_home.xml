@@ -8,108 +8,146 @@
     android:background="@drawable/tea_2">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
+        android:id="@+id/cv_home_contact"
         android:layout_width="175dp"
         android:layout_height="175dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/semi_black"
         app:cardCornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Loyalty Card"
-            android:textSize="25dp"
-            android:fontFamily="sans-serif-smallcaps"
-            android:textColor="@color/yellow"
-            android:layout_gravity="bottom"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"/>
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
-        app:cardCornerRadius="10dp"
-        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739">
+        app:layout_constraintVertical_bias="0.555">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/ic_contact" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
             android:text="Contact"
-            android:textSize="25dp"
-            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
             android:textColor="@color/yellow"
-            android:layout_gravity="bottom"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"/>
+            android:textSize="25dp" />
 
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cv_home_loyaltea"
         android:layout_width="175dp"
         android:layout_height="175dp"
+        android:backgroundTint="@color/semi_black"
         app:cardCornerRadius="10dp"
-        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37">
+        app:layout_constraintVertical_bias="0.555">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/ic_loyaltea" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="Loyaltea Card"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            android:textSize="25dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_home_menu"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:backgroundTint="@color/semi_black"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textStyle="bold"
             android:text="Menu"
-            android:textSize="25dp"
-            android:fontFamily="sans-serif-smallcaps"
             android:textColor="@color/yellow"
-            android:layout_gravity="bottom"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"/>
+            android:textSize="25dp" />
 
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="365dp"
+        android:layout_height="168dp"
+        android:backgroundTint="@color/semi_black"
         app:cardCornerRadius="10dp"
-        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37">
+        app:layout_constraintVertical_bias="0.89">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="News"
-            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textStyle="bold"
             android:fontFamily="sans-serif-smallcaps"
+            android:layout_gravity="center_horizontal"
             android:textColor="@color/yellow"
-            android:layout_gravity="bottom"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"/>
+            android:text="News Feed:" />
+
+        <TextView
+            android:id="@+id/tv_news_feed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="Wampip Tea News stuff here."
+            android:scrollbars="vertical"
+
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/semi_black"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="496dp" />
 
 
     </androidx.cardview.widget.CardView>

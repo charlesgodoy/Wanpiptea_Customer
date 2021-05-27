@@ -13,9 +13,14 @@ import com.burning_glow.wanpipteacustomer.R;
 
 public class LoyaltyFragment extends Fragment {
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_loyalty, container, false);
+
+        ViewGroup view = (ViewGroup) inflater.inflate(R.layout.fragment_loyalty, container, false);
+
+
+        return view;
     }
 }

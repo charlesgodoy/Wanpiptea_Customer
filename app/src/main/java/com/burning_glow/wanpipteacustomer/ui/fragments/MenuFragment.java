@@ -3,14 +3,10 @@ package com.burning_glow.wanpipteacustomer.ui.fragments;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.text.Layout;
-import android.util.Log;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,13 +20,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.burning_glow.wanpipteacustomer.R;
 import com.burning_glow.wanpipteacustomer.adapter.FsAdapter;
 import com.burning_glow.wanpipteacustomer.model.Products;
-import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-
-import java.util.jar.Attributes;
 
 public class MenuFragment extends Fragment {
 
@@ -120,7 +113,7 @@ public class MenuFragment extends Fragment {
             public void onItemClick(DocumentSnapshot documentSnapshot, int position) {
                 Toast.makeText(ctx, "position: " + position, Toast.LENGTH_SHORT).show();
                 teaChoice.setText(documentSnapshot.getString("Name"));
-//                Log.d("CAZ", "documentsnapshot: " + documentSnapshot.getString("Name"));
+//                Log.d("TAZ", "documentsnapshot: " + documentSnapshot.getString("Name"));
                 drinkSizeSelected = mediumDrink;
                 ibMedium.setImageResource(R.drawable.medium_check);
                 ibLarge.setImageResource(R.drawable.large_button);

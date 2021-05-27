@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="4dp"
     android:layout_margin="12dp"
-    app:cardBackgroundColor="@android:color/black">
+    android:backgroundTint="@color/semi_black">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -1,17 +1,17 @@
 package com.burning_glow.wanpipteacustomer.ui;
 
+import android.os.Bundle;
+import android.view.MenuItem;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.os.Bundle;
-import android.view.MenuItem;
-
 import com.burning_glow.wanpipteacustomer.R;
-import com.burning_glow.wanpipteacustomer.ui.fragments.NewsFragment;
+import com.burning_glow.wanpipteacustomer.ui.fragments.ContactFragment;
 import com.burning_glow.wanpipteacustomer.ui.fragments.LoyaltyFragment;
 import com.burning_glow.wanpipteacustomer.ui.fragments.MenuFragment;
-import com.burning_glow.wanpipteacustomer.ui.fragments.ContactFragment;
+import com.burning_glow.wanpipteacustomer.ui.fragments.NewsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class WelcomeScreen extends AppCompatActivity {
@@ -26,6 +26,7 @@ public class WelcomeScreen extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_nav_view);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
 
+        // Sets default fragment
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new NewsFragment()).commit();
